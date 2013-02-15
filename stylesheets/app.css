@@ -1,0 +1,99 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {
+  font-family: 'Rambla', sans-serif;
+}
+.reel-red {
+  color: #800000;
+}
+.center {
+  text-align: center;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.nav-bar {
+  margin: 30px 0 30px 0;
+  padding: 0px;
+}
+.nav-bar li:hover {
+  background: #800000;
+}
+.welcome {
+  font-family: 'Capriola', sans-serif;
+  font-size: 40px;
+}
+.intro-icon {
+  width: 100px;
+}
+.icon-container {
+  height: 100px;
+}
+.link {
+  padding-top: 25px;
+}
+.facebook, .twitter {
+  border: none !important;
+  float: right !important;
+}
+.featurette-divider {
+  margin: 80px 0;
+}
+.featurette h2 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+.featurette-image {
+  margin-top: -60px;
+  width: 400px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+.featurette-image.pull-left {
+  margin-left: 40px;
+}
+.footer p {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .featurette-image.pull-right {
+    display: block;
+    float: none;
+    max-width: 40%;
+    margin: 0 auto 20px;
+  }
+  .featurette-image.pull-left {
+    display: block;
+    float: none;
+    max-width: 40%;
+    margin: 0 auto 20px;
+  }
+  .featurette-divider {
+    margin: 30px 0;
+  }
+}
