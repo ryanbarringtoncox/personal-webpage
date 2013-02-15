@@ -14,6 +14,10 @@
 ----------------------------------------- */
 body {
   font-family: 'Rambla', sans-serif;
+  background: #000000;
+}
+.row, hr {
+  background: #FFFFFF;
 }
 .reel-red {
   color: #800000;
@@ -52,7 +56,7 @@ body {
   float: right !important;
 }
 .featurette-divider {
-  margin: 80px 0;
+  padding: 80px 0;
 }
 .featurette h2 {
   font-size: 50px;
@@ -94,6 +98,6 @@ body {
     margin: 0 auto 20px;
   }
   .featurette-divider {
-    margin: 30px 0;
+    padding: 30px 0;
   }
 }
