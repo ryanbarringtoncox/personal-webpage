@@ -15,12 +15,15 @@
 body {
   font-family: 'Rambla', sans-serif;
   background: #000000;
+  margin: 0px;
+  padding: 0px;
+  background: #0f0a20 url(../images/pattern.jpg) top center fixed;
+  color: #FFFFFF;
+  text-align: center;  
+  display: block;
 }
 .row, hr {
-  background: #FFFFFF;
-}
-.reel-red {
-  color: #800000;
+  background: #000000;
 }
 .center {
   text-align: center;
@@ -39,14 +42,24 @@ body {
   background: #800000;
 }
 .welcome {
-  font-family: 'Capriola', sans-serif;
+  font-family: 'Trocchi', serif;
   font-size: 40px;
+  color: #FFFFFF;
 }
 .intro-icon {
-  width: 100px;
+  width: 140px;
 }
 .icon-container {
   height: 100px;
+}
+.reel {
+  
+}
+.mic {
+  padding-top: 26px;
+}
+.cassette {
+  padding-top: 32px;
 }
 .link {
   padding-top: 25px;
@@ -83,21 +96,41 @@ body {
 .footer p {
   font-size: 12px;
 }
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+.music-player {
+  height: 470px !important;
+}
 
 @media only screen and (max-width: 767px) {
   .featurette-image.pull-right {
     display: block;
     float: none;
-    max-width: 40%;
+    max-width: 100%;
     margin: 0 auto 20px;
   }
   .featurette-image.pull-left {
     display: block;
     float: none;
-    max-width: 40%;
+    max-width: 100%;
     margin: 0 auto 20px;
   }
   .featurette-divider {
     padding: 20px 0;
   }
+  .icon-container {
+    height: 170px;
+  }  
 }
