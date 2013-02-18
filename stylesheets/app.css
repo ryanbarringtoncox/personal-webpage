@@ -94,7 +94,8 @@ body {
   margin-left: 40px;
 }
 .footer p {
-  font-size: 12px;
+  font-size: 8px;
+  padding: 0;
 }
 .video-container {
     position: relative;
@@ -110,8 +111,10 @@ body {
     width: 100%;
     height: 50%;
 }
-.music-player {
-  height: 470px !important;
+.music-player iframe{
+  height: 465px !important;
+  display: inline !important;
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 767px) {
