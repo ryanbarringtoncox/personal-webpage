@@ -42,17 +42,21 @@ body {
 .intro-icon {
   width: 140px;
 }
+.mic-icon {
+  width: 100px;
+}
 .icon-container {
   height: 100px;
-}
-.mic {
-  padding-top: 23px;
+  padding-top: 50px;
 }
 .cassette {
-  padding-top: 32px;
+  padding-top: 63px;
 }
-.link {
-  padding-top: 25px;
+.reel {
+/*margin-top: 25px;*/
+}
+.mic {
+  
 }
 .featurette-divider {
   padding: 80px 0;
