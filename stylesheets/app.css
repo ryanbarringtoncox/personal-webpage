@@ -46,11 +46,11 @@ body {
   width: 100px;
 }
 .icon-container {
-  height: 100px;
+  /*height: 100px;*/
   padding-top: 50px;
 }
 .cassette {
-  padding-top: 63px;
+  padding-top: 65px;
 }
 .reel {
 /*margin-top: 25px;*/
@@ -110,4 +110,8 @@ body {
   .icon-container {
     height: 170px;
   }  
+  .mic {
+  	height: 100px;
+	width: 128px;
+  }
 }
