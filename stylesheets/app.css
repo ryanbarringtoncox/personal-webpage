@@ -18,6 +18,7 @@ body {
   margin: 0px;
   padding: 0px;
   background: #0f0a20 url(../images/pattern.jpg) top center fixed;
+  background-repeat: repeat-x;
   color: #FFFFFF;
   text-align: center;  
   display: block;
