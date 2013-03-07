@@ -29,6 +29,9 @@ body {
 .center {
   text-align: center;
 }
+p.lead {
+  font-size: 14px;
+}
 .pull-right {
   float: right;
 }
@@ -76,6 +79,7 @@ body {
 }
 .featurette-image {
   width: 400px;
+  margin-bottom: 20px;
 }
 .right-padding {
   padding-right: 37px;
